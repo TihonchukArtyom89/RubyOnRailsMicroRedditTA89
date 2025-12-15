@@ -1,4 +1,4 @@
 class User < ApplicationRecord
     self.primary_key = :id_user
-    validates :login, presence: true, length {maximmum: 20}
+    validates :login, presence: true, length: {maximum: 20}
 end
